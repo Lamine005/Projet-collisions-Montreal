@@ -1,0 +1,19 @@
+/* 
+ * Toujours définir explicitement la hauteur de la carte pour définir la taille de l'élément div 
+ * qui contient la carte. 
+ */
+ #map {
+  height: 80%; /* Hauteur de la carte (80% de la hauteur de son conteneur) */
+  width: 90%;  /* Largeur de la carte (90% de la largeur de son conteneur) */
+  margin: auto; /* Centre horizontalement la carte dans son conteneur */
+}
+
+/* 
+ * Optionnel : Permet à la page d'exemple de remplir la fenêtre du navigateur. 
+ */
+html,
+body {
+  height: 100vh; /* Hauteur de la fenêtre du navigateur (100% de la hauteur de la fenêtre) */
+  width: 100vw; /* Largeur de la fenêtre du navigateur (100% de la largeur de la fenêtre) */
+  padding: 0;   /* Supprime la marge par défaut du corps (body) de la page */
+}

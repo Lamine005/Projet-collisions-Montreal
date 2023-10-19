@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Metric Data</title>
+  <style>
+    /* Style CSS pour la mise en page de la table */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Metric Data</h1>
+  <h2>Descriptive Data</h2>
+  <!-- Tableau pour afficher les données descriptives -->
+  <table>
+    <tr>
+      <th>Numéro Civique</th>
+      <th>Rue</th>
+      <th>Gravité</th>
+      <th>Nombre de Victimes Total</th>
+      <th>Date de l'Accident</th>
+    </tr>
+    <!-- Lignes de données descriptives extraites dynamiquement -->
+    <tr>
+      <td><%= data.descriptiveData.NO_CIVIQ_ACCDN %></td>
+      <td><%= data.descriptiveData.RUE_ACCDN %></td>
+      <td><%= data.descriptiveData.GRAVITE %></td>
+      <td><%= data.descriptiveData.NB_VICTIMES_TOTAL %></td>
+      <td><%= data.descriptiveData.DT_ACCDN %></td>
+    </tr>
+  </table>
+
+  <h2>Aggregation Data</h2>
+  <!-- Tableau pour afficher les données d'agrégation -->
+  <table>
+    <tr>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+    <!-- Boucle pour afficher les données d'agrégation dynamiquement -->
+    <% data.aggregationData.forEach((item) => { %>
+      <tr>
+        <td><%= item.metric %></td>
+        <td><%= item.value %></td>
+      </tr>
+    <% }); %>
+  </table>
+</body>
+</html>
