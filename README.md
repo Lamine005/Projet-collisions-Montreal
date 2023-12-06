@@ -16,7 +16,7 @@ This is a Road Collision Management application built with Node.js and Express, 
 ### How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Lamine005/road-collision-management.git
+   git clone https://github.com/Lamine005/Projet-collisions-Montreal.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -47,7 +47,7 @@ Ceci est une application de gestion des collisions routières construite avec No
 ### Comment exécuter
 1. Cloner le dépôt :
    ```bash
-   git clone https://github.com/Lamine005/road-collision-management.git
+   git clone https://github.com/Lamine005/Projet-collisions-Montreal.git
    ```
 2. Naviguer vers le répertoire du projet :
    ```bash
