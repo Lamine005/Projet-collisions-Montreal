@@ -20,7 +20,7 @@ This is a Road Collision Management application built with Node.js and Express, 
    ```
 2. Navigate to the project directory:
    ```bash
-   cd road-collision-management
+   cd Projet-collisions-Montreal
    ```
 3. Install dependencies:
    ```bash
@@ -51,7 +51,7 @@ Ceci est une application de gestion des collisions routières construite avec No
    ```
 2. Naviguer vers le répertoire du projet :
    ```bash
-   cd road-collision-management
+   cd Projet-collisions-Montreal
    ```
 3. Installer les dépendances :
    ```bash
